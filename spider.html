@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>SPIDER MAN</title>
+</head>
+<body>
+    
+    <div class="caixa">
+        <div class="caixa1 s1">
+            <div class="background-video">
+            <video class="back" autoplay muted loop>
+            <source src="videos/videoplayback.mp4" type="video/mp4">
+        </div>
+
+        <div class="head-logo">
+
+            <img class="aranha" src="images/logo.png">
+
+        <div class="main">
+             
+            <label for="spider1">
+                <div class="but2">
+                <li><a href="#">WATCH THE TEASER</a></li>
+               </div></label>
+            <h1>SPIDER-MAN</h1>
+            <p>Miles Morales is Marvel's newest New York Spider-Man. After his father's untimely death, Miles was introduced to Peter Parker, who quickly became his friend and mentor. When Miles was bitten by an Oscorp genetically engineered spider, he developed unique powers and, after months of insistence, Peter agreed to train him.</p>
+            <div class="but1">
+               <li><a href="#">BUY NOW</a></li>
+            </div>
+            
+        </div>
+
+        <nav class="menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Wallpapers</a></li>
+            <li><a href="#">Teaser</a></li>
+            <li><a href="#">Forum</a></li>
+            <li><a href="#">Gameplays</a></li>
+        </ul>
+        </nav>
+        <img class="logo" src="images/logo1.png">
+        <img class="products" src="images/actvision.png">
+        <img class="spider" src="images/spider.png">
+
+        
+        <div class="music">
+            <p>PLAY THEME</p>  
+            <center>
+            <img width="65px" src="images/play.png" id="icon">
+            </center>
+            <br>
+        </div>
+    <!-- "Audio (Theme Song)": When the button is clicked, the audio will play. -->
+        <audio id="mySong" src="Audio.mp3"  loop  type="audio/mp3" ></audio>
+        <script>
+            var mySong = document.getElementById("mySong");
+            var icon = document.getElementById("icon");
+    
+            icon.onclick = function(){
+                if (mySong.paused) {
+                    mySong.play();
+                    icon.src = "images/play.png";
+                }
+                else {
+                    mySong.pause();
+                    icon.src = "images/pause.png";
+    
+                }
+            }
+    
+        </script>
+
+
+    
+
+
+
+</div>
+</div>
+</div>
+
+        <!-- <div class="cont">
+            
+            <div>
+            <h1>01 <span>About</span></h1> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad beatae quibusdam doloremque nulla! Inventore accusantium debitis error iure minima. Ipsam ea quasi laboriosam dignissimos in atque dolores nostrum. Ratione, repellendus.</p></div>
+            <div>
+            <h1>02 <span>Support</span></h1> <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quo vel id voluptas est eius labore culpa quibusdam reiciendis architecto modi quos non delectus iure beatae, sunt voluptatem possimus dolore.</p></div>
+            <div>
+            <h1>03 <span>Team</span></h1><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos architecto hic nisi nostrum dicta ratione facere quisquam ducimus quo eveniet voluptates voluptate, saepe nihil sequi cumque reprehenderit cum! Eius, officiis!</p></div>
+            <hr>
+        </div> -->
+
+
+</body>
+</html>
